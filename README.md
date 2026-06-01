@@ -1,7 +1,3 @@
-# Language / Dil Seçimi
-- [Türkçe (TR)](#-finans--kripto-para-takip-dashboardu)
-- [English (EN)](#-finance--cryptocurrency-tracking-dashboard)
-
 # Finans & Kripto Para Takip Dashboard'u
 
 Bu proje; güncel döviz kur ve kripto para verilerini anlık olarak listeleyen, vanilla front-end teknolojileri (HTML5, CSS3, JavaScript) ile geliştirilmiş dinamik bir web arayüzü uygulamasıdır.
