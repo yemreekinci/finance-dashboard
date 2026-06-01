@@ -1,0 +1,15 @@
+# API Anahtarı
+config.js
+
+# İşletim Sistemi Sistem Dosyaları
+.DS_Store
+Thumbs.db
+
+# Kod Editörü Ayarları
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp

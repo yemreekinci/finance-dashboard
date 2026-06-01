@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto & FX Dashboard</title>
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>Finans<span>Dashboard</span></h1>
+        </div>
+        <button id="theme-toggle" class="btn-theme">🌙 Gece Modu</button>
+    </header>
+
+    <main class="dashboard-container">
+        
+        <section id="market-list" class="card">
+            <div class="card-header">
+                <h2>Canlı Kurlar</h2>
+                <input type="text" id="search-input" placeholder="Kur ara... (Örn: USD, BTC)">
+            </div>
+            <div id="currencies-wrapper" class="list-wrapper">
+                <div class="crypto-row">
+                    <span class="crypto-name">🇺🇸 USD / TRY</span>
+                    <span class="crypto-price">32.45 ₺</span>
+                </div>
+                <div class="crypto-row">
+                    <span class="crypto-name">🇪🇺 EUR / TRY</span>
+                    <span class="crypto-price">35.12 ₺</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="converter" class="card">
+            <div class="card-header">
+                <h2>Döviz Çevirici</h2>
+            </div>
+            <div class="converter-form">
+                <div class="input-group">
+                    <label for="amount">Miktar</label>
+                    <input type="number" id="amount" value="1" min="1">
+                </div>
+                
+                <div class="select-group">
+                    <div class="select-box">
+                        <label for="from-currency">Kaynak</label>
+                        <select id="from-currency">
+                            <option value="USD">USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="TRY" selected>TRY</option>
+                        </select>
+                    </div>
+                    <span class="swap-icon">⇄</span>
+                    <div class="select-box">
+                        <label for="to-currency">Hedef</label>
+                        <select id="to-currency">
+                            <option value="USD" selected>USD</option>
+                            <option value="EUR">EUR</option>
+                            <option value="TRY">TRY</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="result-box">
+                    <p id="result-text">1 TRY = 0.031 USD</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
