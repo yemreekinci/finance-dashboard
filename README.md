@@ -1,3 +1,7 @@
+* [Türkçe Dökümantasyon İçin Tıklayın](#tr-version)
+* [Click Here For English Documentation](#en-version)
+
+<a id="tr-version"></a>
 # Finans & Kripto Para Takip Dashboard'u
 
 Bu proje; güncel döviz kur ve kripto para verilerini anlık olarak listeleyen, vanilla front-end teknolojileri (HTML5, CSS3, JavaScript) ile geliştirilmiş dinamik bir web arayüzü uygulamasıdır.
@@ -31,7 +35,7 @@ Bu proje; güncel döviz kur ve kripto para verilerini anlık olarak listeleyen,
 
 Bu proje MIT Lisansı ile lisanslanmıştır.
 
-
+<a id="en-version"></a>
 # Finance & Cryptocurrency Tracking Dashboard
 
 This project is a dynamic web dashboard built with vanilla front-end technologies (HTML5, CSS3, and JavaScript) that displays real-time exchange rate and cryptocurrency market data.
